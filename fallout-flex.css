@@ -1,0 +1,200 @@
+body {
+  height: 100%;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 20px 10px 4000px #afa9a8;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  text-align: justify;
+  line-height: 22px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 37px;
+  font-weight: 100;
+}
+
+.list-description {
+  margin-right: 19px;
+  padding: 0;
+  list-style: none;
+}
+
+.list-description li:before {
+  content: "\2022";
+  font-size: 270%;
+  margin-right: 50px;
+}
+
+.list-description li {
+  line-height: 30px;
+  display: flex;
+}
+
+.outside-text {
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #261f1f;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.picture-container {
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.title-text-container {
+  position: absolute;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 50px;
+  flex-direction: column;
+  top: 75px;
+  left: 100px;
+  color: white;
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.game-number {
+  color: #d4af37;
+  font-weight: 1;
+}
+
+.banner-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-title-wrapper {
+  position: relative;
+  background-color: #d4af37;
+  height: 200px;
+  width: 55px;
+  display: flex;
+}
+
+.brand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-116%) rotate(-90deg);
+  font-weight: bold;
+}
+
+.banner-text {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 50px auto 150px;
+}
+
+.vertical-separator {
+  background-color: #d4af37;
+  height: 450px;
+  width: 30px;
+}
+
+.text-content {
+  margin-left: 50px;
+}
+
+.subtitle {
+  font-weight: 100;
+}
+
+.highlight {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight-color {
+  color: #d4af37;
+}
+
+.highlight-grey {
+  color: grey;
+  font-style: italic;
+}
+
+.hightlight-italic {
+  font-style: italic;
+}
+
+.fallout-guy {
+  position: absolute;
+  left: 100px;
+  bottom: 107px;
+  height: 150px;
+  width: 150px;
+}
+
+.release-wrapper {
+  position: absolute;
+  right: 100px;
+  bottom: 101px;
+}
+
+.release {
+  position: relative;
+}
+
+.wheel {
+  height: 160px;
+  width: 160px;
+}
+
+.release-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 38px;
+  right: 24px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.release-title {
+  font-size: 20px;
+}
+
+.pc-text {
+  margin-left: 26px;
+}
+
+.good-job {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-family: photograph_signature;
+}
+
+@media screen and (max-width: 768px) {
+}
